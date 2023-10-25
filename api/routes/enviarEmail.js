@@ -1,7 +1,7 @@
 const express = require("express");
 const Emailrouter = express.Router();
 const nodemailer = require("nodemailer");
-const createConstancias = require("./createConstancias");
+const createConstancias = require("./pdfCreateConstancias");
 
 const verifica = require("./verificaToken");
 
